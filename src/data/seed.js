@@ -1,4 +1,5 @@
 import faker from 'faker';
+import regeneratorRuntime from 'regenerator-runtime';
 import { UserModel, ChatModel, MessageModel, GroupModel } from './connectors';
 import bcrypt from 'bcrypt';
 

@@ -7,6 +7,8 @@ exports["default"] = void 0;
 
 var _faker = _interopRequireDefault(require("faker"));
 
+var _regeneratorRuntime = _interopRequireDefault(require("regenerator-runtime"));
+
 var _connectors = require("./connectors");
 
 var _bcrypt = _interopRequireDefault(require("bcrypt"));
@@ -30,9 +32,9 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 var seed = /*#__PURE__*/function () {
-  var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+  var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime["default"].mark(function _callee2() {
     var hash, user1;
-    return regeneratorRuntime.wrap(function _callee2$(_context2) {
+    return _regeneratorRuntime["default"].wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
@@ -56,9 +58,9 @@ var seed = /*#__PURE__*/function () {
             user1 = _context2.sent;
 
             _toConsumableArray(Array(15).keys()).map( /*#__PURE__*/function () {
-              var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(index, i) {
+              var _ref2 = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime["default"].mark(function _callee(index, i) {
                 var user2, chat1, message1, message2, group1;
-                return regeneratorRuntime.wrap(function _callee$(_context) {
+                return _regeneratorRuntime["default"].wrap(function _callee$(_context) {
                   while (1) {
                     switch (_context.prev = _context.next) {
                       case 0:
